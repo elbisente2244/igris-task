@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/igris-task',
   resolve: {
     alias: {
       // Alias @ to the src directory
